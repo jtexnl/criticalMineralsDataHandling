@@ -1,3 +1,9 @@
+'''
+This file is used to pull all of the relevant data files on the USGS data page and put them in the directory from which the file is run.
+If you want to pull more files, add the names of the minerals for which you want to pull to the 'criticalMinerals' list. 
+Be sure that you use the name as it is spelled out on the website.
+'''
+
 import requests as rq 
 from bs4 import BeautifulSoup
 import os
