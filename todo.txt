@@ -1,0 +1,9 @@
+1. Turn xls and xlsx documents into csvs. Try to follow a uniform naming convention so it's obvious what the files are for.
+
+2. Put all of the csv documents into a 'data' folder. Make sure that they are either in subfolders to denote the mineral they are for or that the name makes that clear.
+
+3. Extract the tables from the pdf files and put them into csvs. Be sure they are following the same naming convention and organizational structure as the files from xlsx.
+
+4. If you have time, start to explore the data and make some summary statistics. Maybe get the documentation into a folder (preferably as a .txt file) and work on data dictionaries. 
+
+5. Build a JSON file with data from all of the csv files.
